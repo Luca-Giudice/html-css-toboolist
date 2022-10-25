@@ -9,7 +9,8 @@
 /*Generic*/
 
 body{
-    background-color: rgb(179, 177, 177);
+    background-color: rgb(125, 128, 145);
+    font-family: sans-serif;
 }
 header{
     background-color: white;
@@ -18,11 +19,11 @@ header{
 img{
     width: 100px;
     height: 100px;
+    vertical-align: middle;
 }
 
 h1{
-    font-family: sans-serif;
-    font-weight: bolder;
+    font-weight:900;
     display: inline;
     font-size: 50px;
     height: 100px;
@@ -30,32 +31,118 @@ h1{
 }
 
 .container{
+    width: 60%;
     background-color: white;
     border-radius: 5px;
-    width: 100%;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 40px;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 10%;
+    margin-left: 20%;
     }
 
 #pulsante{
     background-color: dodgerblue;
     border: 0;
-    margin-left: 5%;
-    border-radius: 3px;
+    margin-left: 3%;
+    border-radius: 7px;
     color: white;
-    padding: 4px;
+    padding: 7px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
-#pulsante1{
-    background-color: white;
-    border-radius: 3px;
-    padding: 3px;
+
+#pulsante2{
+    background-color: rgba(255, 255, 255, 0.726);
+    border-color: gray;
+    border-radius: 7px;
+    padding: 4px;
+    font-size: 19px; 
 }
 .h-main{
     margin-bottom: 5px;
 }
 
+ul{
+    list-style: none;
+}
+
+li{
+    margin-block: 20px;
+    font-size: larger
+}
 h2{
-    
+    ;
+
+}
+
+.arrow{
+   font-size: small;
+   vertical-align:middle;
+}
+
+.green{
+    height: 20px;
+    width: 30px;
+    background-color:seagreen;
+    border-radius: 7px;
+    font-size: 10px;
+    padding: 3px;
+    vertical-align: middle;
+    color: white;
+}
+
+.blue{
+    height: 20px;
+    width: 30px;
+    background-color:dodgerblue;
+    border-radius: 7px;
+    font-size: 10px;
+    padding: 3px;
+    vertical-align: middle;
+    color: white;
+}
+
+.purple{
+    height: 20px;
+    width: 30px;
+    background-color:rebeccapurple;
+    border-radius: 7px;
+    font-size: 10px;
+    padding: 3px;
+    vertical-align: middle;
+    color: white;
+}
+
+.orange{
+    height: 20px;
+    width: 30px;
+    background-color:orange;
+    border-radius: 7px;
+    font-size: 10px;
+    padding: 3px;
+    vertical-align: middle;
+    color: white;
+}
+
+.pink{
+    height: 20px;
+    width: 30px;
+    background-color:hotpink;
+    border-radius: 7px;
+    font-size: 10px;
+    padding: 3px;
+    vertical-align: middle;
+    color: white;
+}
+
+.light-green{
+    height: 20px;
+    width: 30px;
+    background-color:yellowgreen;
+    border-radius: 7px;
+    font-size: 10px;
+    padding: 3px;
+    vertical-align: middle;
+    color: white;
 }
