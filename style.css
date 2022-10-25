@@ -1,27 +1,33 @@
-/*CSS reset*/
+/*CSS Reset*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
-/*utility*/
+
+/*Generic*/
+
 body{
-
+    background-color: rgb(179, 177, 177);
 }
-
-/*header*/
-
 header{
-   
-
+    background-color: white;
 }
 
-/*main*/
-
-main{
-   
+img{
+    width: 100px;
+    height: 100px;
 }
 
-.container{
-    
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: inline;
+    font-size: 50px;
+    height: 100px;
+    bottom: 100px;
 }
+
+.container
