@@ -160,6 +160,7 @@ h2{
     vertical-align: center;
     text-align: center;
     border-color: green;
+    padding: 3px;
     
 
 }
@@ -176,4 +177,5 @@ h2{
     line-height: 15px;
     vertical-align: center;
     text-align: center;
+    padding: 3px;
 }
